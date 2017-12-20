@@ -10,7 +10,7 @@ before_install:
   - docker build -f Dockerfile.dev -t p3cycle:latest .
 
 script:
-  - docker run -v `pwd`/src:/code p3cycle:latest /bin/bash -c "cd /code && CI=true yarn test"
+  - docker run -v `pwd`/src:/code p3cycle:latest /bin/bash -c "cd /code && yarn install && CI=true yarn test"
 
 after_success:
   - docker build -t "$DOCKER_REGISTRY/$HEROKU_APP/web:latest" .
