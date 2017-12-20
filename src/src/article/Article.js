@@ -10,7 +10,7 @@ class Article extends Component {
           <h3>Nombre autor</h3>
         </header>
         <aside class="left">Home / Temática / Artículo</aside>
-        <aside>Tiempo de lectura: 4 minutos</aside>
+        <aside>Tiempo de lectura: 5 minutos</aside>
         <section className="Article-intro">
             <h3>What is Lorem Ipsum?</h3>
             <p>
