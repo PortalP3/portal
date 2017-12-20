@@ -58,3 +58,4 @@ typings/
 .env
 
 p3cycle.code-workspace
+.vault.kdbx.lock
