@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './Breadcrumb.css';
 
-const Breadcrum = () => {
+const Breadcrumb = () => {
         return (
           <aside className="left">Home / Temática / Artículo</aside>
         );
 };
 
-export default Breadcrum;
+export default Breadcrumb;
