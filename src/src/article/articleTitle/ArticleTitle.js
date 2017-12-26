@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './ArticleTitle.css';
 
-class ArticleTitle extends Component {
-    render() {
+const ArticleTitle = () => {
         return (
            <div>
                 <header className="Article-header">
@@ -11,7 +10,6 @@ class ArticleTitle extends Component {
                 </header>
            </div>
         );
-    }
 }
 
 export default ArticleTitle;
