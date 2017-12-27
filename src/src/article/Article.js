@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ArticleTitle from './articleTitle/ArticleTitle'
 import ArticleTimeDuration from './articleTimeDuration/ArticleTimeDuration'
 import Breadcrumb from '../breadcrumb/Breadcrumb'
 import './Article.css';
-class Article extends Component {
-  render() {
+
+const Article = () => {
     return (
       <div className="Article">
       <div className="Article-title-wrapper">
@@ -39,7 +39,6 @@ class Article extends Component {
         </section>
       </div>
     );
-  }
 }
 
 export default Article;
