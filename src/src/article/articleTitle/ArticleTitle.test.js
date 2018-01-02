@@ -14,3 +14,15 @@ it('render component', () => {
 it('contains a header element', () => {
     expect(wrapper.find('header').exists()).toBeTruthy()
 })
+
+it('container a image element', () => {
+    expect(wrapper.find('div.Title-image').exists()).toBeTruthy()
+})
+
+it('contains semitransparent layer', () =>{
+    expect(wrapper.find('div.Transparent-layer-image').exists()).toBeTruthy()
+})
+
+it('contains title layer', () =>{
+    expect(wrapper.find('div.Transparent-layer-title').exists()).toBeTruthy()
+})

@@ -5,8 +5,12 @@ const ArticleTitle = () => {
         return (
            <div>
                 <header className="Article-header">
-                    <h1 className="Article-title">Título artículo</h1>
-                    <h3>Nombre autor</h3>
+                    <div className="Title-image">
+                        <div className="Transparent-layer-image"/>
+                        <div className="Transparent-layer-title">
+                            <h1 className="Article-title">Título artículo</h1>
+                        </div>
+                    </div>
                 </header>
            </div>
         );
