@@ -1,0 +1,10 @@
+.Footer-style{
+    text-align: center;
+    margin: 0 auto;
+    color:#fff;
+    font-size: 12px;
+    background-color: #260624;
+    line-height: 30px;
+    width: 50%;
+    height: 30px;
+}
