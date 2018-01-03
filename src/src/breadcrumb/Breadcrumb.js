@@ -3,7 +3,7 @@ import './Breadcrumb.css';
 
 const Breadcrumb = () => {
         return (
-          <aside className="left">Home / Temática / Artículo</aside>
+          <aside className="Breadcrumb">Home / Temática / Artículo</aside>
         );
 };
 

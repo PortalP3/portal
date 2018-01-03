@@ -4,9 +4,12 @@ import Adapter from 'enzyme-adapter-react-16';
 import ArticleTimeDuration from './ArticleTimeDuration';
 
 Enzyme.configure({ adapter: new Adapter() });
+const wrapper = shallow(<ArticleTimeDuration />)
 
 it('render component', () => {
-    const wrapper = shallow(<ArticleTimeDuration />)
-
     expect(wrapper).toBeDefined()
+})
+
+it('contains a Time duration style', () => {
+    expect(wrapper.find('div.Time-duration').exists()).toBeTruthy()
 })

@@ -1,11 +1,16 @@
 .Article {
     margin: 0 auto;
-    padding: 30px 40px 0 40px;
     width: 50%;
+    background-color: #d2d3c7;
 }
 
 .Article-title-wrapper {
     margin: 0 auto;
     width: 100%;
     height: 50%;
+}
+
+.Article-intro{
+    color:#3f1f3e;
+    padding: 20px 100px 50px 75px;
 }
