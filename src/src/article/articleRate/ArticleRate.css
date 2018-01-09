@@ -2,13 +2,13 @@
     margin: 0 auto;
     background:#dfe0dd;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    max-width: 75%;
     padding: 10px;
 }
 
 .Article-rate h2{
     color: #3f1f3e;
+    margin: 5px 0px 10px 0px;
 }
 
 .face-container{

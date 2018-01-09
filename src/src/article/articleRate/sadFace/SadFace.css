@@ -1,7 +1,20 @@
 .sadFace{
-    background: url(/smileyFace.svg);
     width: 100px;
     height: 100px;
+}
+
+.sad-face-outline{
+    fill:none;
+    stroke:#231122;
+    stroke-width:3px;
+}
+
+.sad-face-outline:hover{
+    stroke:#ed9797;
+}
+
+.sad-face-outline:active{
+    stroke:#e01d1d;
 }
 
 .sad-eye{
@@ -19,7 +32,6 @@
     transition: 0.5s;
 }
 
-
 .sadFace:hover .sad-eye{
     fill: #ed9797;
     stroke:#ed9797;
@@ -27,9 +39,7 @@
     transition: 0.2s; 
 }
 
-
 .sadFace:hover .sad-mouth{
-    
     stroke:#ed9797;
     transition: 0.2s;
 }
@@ -42,8 +52,8 @@
 
 .sadFace:active .sad-mouth{
     stroke:#e01d1d;
-    transform: translateY(55px) translateX(15px) rotate(5deg);
-    stroke-width: 2;
+    transform: translateY(58px) translateX(15px) rotate(0deg);
+    stroke-width: 3;
     transition: 0.5s;
 }
 

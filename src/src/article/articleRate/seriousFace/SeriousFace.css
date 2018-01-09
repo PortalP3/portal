@@ -1,7 +1,20 @@
 .seriousFace{
-    background: url(/smileyFace.svg);
     width: 100px;
     height: 100px;
+}
+
+.serious-face-outline{
+    fill:none;
+    stroke:#231122;
+    stroke-width:3px;
+}
+
+.serious-face-outline:hover{
+    stroke:#715353;
+}
+
+.serious-face-outline:active{
+    stroke:#aaa4a4;
 }
 
 .serious-eye{

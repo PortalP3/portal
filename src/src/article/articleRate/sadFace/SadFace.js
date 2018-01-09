@@ -6,13 +6,14 @@ const SadFace = () => {
             <div className="sadFace">
             <svg>
                 <g >
-                    <circle className="sad-eye" r='10' id='c' cx='25' cy='30' />
-                    <circle className="sad-eye" r='10' id='c' cx='75' cy='30' />
-                    <circle className="sad-eyelid" r='15' id='c' cx='25' cy='4' />
-                    <circle className="sad-eyelid" r='15' id='c' cx='75' cy='4' />
-                    <g className='sad-mouth' transform='translate(15,65)'>
-                        <path d="M10 10 Q 35 -20 60 10" />	
+                    <circle className="sad-eye" r='7' id='c' cx='36' cy='39' />
+                    <circle className="sad-eye" r='7' id='c' cx='70' cy='39' />
+                    <circle className="sad-eyelid" r='17' id='c' cx='36' cy='4' />
+                    <circle className="sad-eyelid" r='17' id='c' cx='70' cy='4' />
+                    <g className='sad-mouth' transform='translate(16,68)'>
+                        <path d="M15 10 Q 37 -20 60 10" />	
                     </g>
+                    <circle className="sad-face-outline" r='45' cx='53' cy='53' />
                 </g>
             </svg>
             </div>

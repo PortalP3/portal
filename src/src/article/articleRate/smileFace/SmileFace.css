@@ -1,13 +1,20 @@
 .smileyFace{
-    
     width: 100px;
     height: 100px;
 }
 
-.smile-face{
+.smile-face-outline{
     fill:none;
     stroke:#231122;
     stroke-width:3px;
+}
+
+.smile-face-outline:hover{
+    stroke:#E18900;
+}
+
+.smile-face-outline:active{
+    stroke:#4CAF50;
 }
 .smile-eye{
     fill: #231122; 
@@ -22,23 +29,21 @@
     fill: none;
     stroke:#231122;
     stroke-width:5; 
-    transition: 0.5s;
 }
 
-
 .smileyFace:hover .smile-eye{
-    fill: #715353;
-    stroke:#715353;
+    fill: #E18900;
+    stroke:#E18900;
     stroke-width:3;
     transition: 0.2s; 
 }
 
 .smileyFace:hover .smile-face{
-    stroke: #715353;
+    stroke: #E18900;
 }
 .smileyFace:hover .smile-mouth{
-    fill: #715353;
-    stroke:#715353;
+    fill: #E18900;
+    stroke:#E18900;
     stroke-width:1; 
     transition: 0.2s;
 }
