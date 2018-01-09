@@ -1,0 +1,69 @@
+.smileyFace{
+    
+    width: 100px;
+    height: 100px;
+}
+
+.smile-face{
+    fill:none;
+    stroke:#231122;
+    stroke-width:3px;
+}
+.smile-eye{
+    fill: #231122; 
+    transition: 0.5s;
+}
+
+.smile-right-eyelid{
+    fill: #dfe0dd;
+}
+
+.smile-mouth{
+    fill: none;
+    stroke:#231122;
+    stroke-width:5; 
+    transition: 0.5s;
+}
+
+
+.smileyFace:hover .smile-eye{
+    fill: #715353;
+    stroke:#715353;
+    stroke-width:3;
+    transition: 0.2s; 
+}
+
+.smileyFace:hover .smile-face{
+    stroke: #715353;
+}
+.smileyFace:hover .smile-mouth{
+    fill: #715353;
+    stroke:#715353;
+    stroke-width:1; 
+    transition: 0.2s;
+}
+
+.smileyFace:active .smile-eye{
+    fill: #4CAF50;
+    stroke:#4CAF50;
+    stroke-width:3; 
+}
+
+.smileyFace:active .smile-mouth{
+    fill: #4CAF50;
+    stroke:#4CAF50;
+    stroke-width:1; 
+    transform: translateY(62px) translateX(25px) rotate(-5deg);
+    transition: 0.5s;
+}
+
+
+.smileyFace:active .smile-face{
+    stroke: #4CAF50;
+}
+
+.smileyFace:active .smile-right-eyelid{
+    transform: translateY(24px) ;
+    transition: 0.4s;   
+}
+

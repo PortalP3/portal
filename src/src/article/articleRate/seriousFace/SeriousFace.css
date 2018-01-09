@@ -1,0 +1,47 @@
+.seriousFace{
+    background: url(/smileyFace.svg);
+    width: 100px;
+    height: 100px;
+}
+
+.serious-eye{
+    fill: #231122; 
+    transition: 0.5s;
+}
+
+.serious-mouth{
+    fill: none;
+    stroke:#231122;
+    stroke-width:5; 
+    transition: 0.5s;
+}
+
+
+.seriousFace:hover .serious-eye{
+    fill: #715353;
+    stroke:#715353;
+    stroke-width:3;
+    transition: 0.2s; 
+}
+
+
+.seriousFace:hover .serious-mouth{
+    fill: #715353;
+    stroke:#715353;
+    transition: 0.2s;
+}
+
+.seriousFace:active .serious-eye{
+    fill: #aaa4a4;
+    stroke:#aaa4a4;
+    stroke-width:3; 
+}
+
+.seriousFace:active .serious-mouth{
+    fill: #aaa4a4;
+    stroke:#aaa4a4;
+    transform: translateY(50px) translateX(15px) rotate(13deg);
+    transition: 0.5s;
+}
+
+

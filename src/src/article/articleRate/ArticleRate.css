@@ -1,5 +1,18 @@
 .Article-rate{
-    
-    width: 20px;
-    height: 30px;
+    margin: 0 auto;
+    background:#dfe0dd;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
 }
+
+.Article-rate h2{
+    color: #3f1f3e;
+}
+
+.face-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+

@@ -14,3 +14,7 @@ it('render component', () => {
 it('contains a rate div', () => {
     expect(wrapper.find('div.Article-rate').exists()).toBeTruthy()
 })
+
+it('contains a text element', () => {
+    expect(wrapper.find('h2').exists()).toBeTruthy()
+})
