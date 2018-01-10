@@ -9,15 +9,17 @@
     stroke-width:3px;
 }
 
-.sad-eye{
+.sad-eye{   
     fill: #231122; 
     transition: 0.5s;
 }
 
 .sad-eyelid{
+    transform: translateY(3px) ;
     fill: #dfe0dd;
 }
 .sad-mouth{
+    transform: translateY(67px) translateX(15px) rotate(0deg);
     fill: none;
     stroke:#231122;
     stroke-width:5; 
@@ -32,6 +34,7 @@
 }
 
 .sadFace:hover .sad-mouth{
+    transform: translateY(67px) translateX(15px) rotate(0deg);
     stroke:#ed9797;
     transition: 0.2s;
 }

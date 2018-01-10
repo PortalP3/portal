@@ -16,10 +16,12 @@
 }
 
 .smile-right-eyelid{
+    transform: translateY(3px) ;
     fill: #dfe0dd;
 }
 
 .smile-mouth{
+    transform: translateY(62px) translateX(23px) rotate(0deg);
     fill: none;
     stroke:#231122;
     stroke-width:5; 
