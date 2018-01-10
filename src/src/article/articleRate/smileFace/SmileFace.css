@@ -9,13 +9,7 @@
     stroke-width:3px;
 }
 
-.smile-face-outline:hover{
-    stroke:#E18900;
-}
 
-.smile-face-outline:active{
-    stroke:#4CAF50;
-}
 .smile-eye{
     fill: #231122; 
     transition: 0.5s;
@@ -68,7 +62,14 @@
 }
 
 .smileyFace:active .smile-right-eyelid{
-    transform: translateY(24px) ;
+    transform: translateY(25px) ;
     transition: 0.4s;   
 }
 
+.smileyFace:hover .smile-face-outline{
+    stroke:#E18900;
+}
+
+.smileyFace:active .smile-face-outline{
+    stroke:#4CAF50;
+}

@@ -9,13 +9,6 @@
     stroke-width:3px;
 }
 
-.serious-face-outline:hover{
-    stroke:#715353;
-}
-
-.serious-face-outline:active{
-    stroke:#aaa4a4;
-}
 
 .serious-eye{
     fill: #231122; 
@@ -57,4 +50,11 @@
     transition: 0.5s;
 }
 
+.seriousFace:hover .serious-face-outline{
+    stroke:#715353;
+}
+
+.seriousFace:active .serious-face-outline{
+    stroke:#aaa4a4;
+}
 

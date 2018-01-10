@@ -9,14 +9,6 @@
     stroke-width:3px;
 }
 
-.sad-face-outline:hover{
-    stroke:#ed9797;
-}
-
-.sad-face-outline:active{
-    stroke:#e01d1d;
-}
-
 .sad-eye{
     fill: #231122; 
     transition: 0.5s;
@@ -52,14 +44,20 @@
 
 .sadFace:active .sad-mouth{
     stroke:#e01d1d;
-    transform: translateY(58px) translateX(15px) rotate(0deg);
+    transform: translateY(65px) translateX(15px) rotate(0deg);
     stroke-width: 3;
     transition: 0.5s;
 }
 
 .sadFace:active .sad-eyelid{
-    transform: translateY(19px) ;
+    transform: translateY(23px) ;
     transition: 0.4s;  
 }
 
+.sadFace:hover .sad-face-outline{
+    stroke:#ed9797;
+}
 
+.sadFace:active .sad-face-outline{
+    stroke:#e01d1d;
+}
