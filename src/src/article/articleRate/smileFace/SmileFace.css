@@ -9,7 +9,6 @@
     stroke-width:3px;
 }
 
-
 .smile-eye{
     fill: #231122; 
     transition: 0.5s;
@@ -57,7 +56,6 @@
     transform: translateY(62px) translateX(25px) rotate(-5deg);
     transition: 0.5s;
 }
-
 
 .smileyFace:active .smile-face{
     stroke: #4CAF50;

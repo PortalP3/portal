@@ -8,7 +8,7 @@ const ArticleTitle = () => {
                     <div className="Title-image">
                         <div className="Transparent-layer-image"/>
                         <div className="Transparent-layer-title">
-                            <h1 className="Article-title">Título artículo</h1>
+                            <h1 className="Article-title">Feminismo</h1>
                         </div>
                     </div>
                 </header>

@@ -18,16 +18,17 @@
 .Transparent-layer-title{
     position: relative;
     top: -260px;
-    left:30%;
-    width: 40%;
+    width: 45%;
     height: 30%;
-    padding-top:5%; 
+    padding-top:1%; 
     background-color: rgba(49, 24, 48, 0.7);
+    margin: auto;
 }
 .Article-title{
     color: #dfe0dd;
     line-height: 100%;
-    
+    text-transform: uppercase;
+    font-size: 3em;
 }
 
 

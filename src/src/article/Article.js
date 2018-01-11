@@ -14,28 +14,28 @@ const Article = () => {
         <Breadcrumb />
         <ArticleTimeDuration />
         <section className="Article-intro">
-            <h3>What is Lorem Ipsum?</h3>
+            <h3>¿Qué es el feminismo?</h3>
             <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                El feminismo como movimiento filosófico empezó en  el siglo XVII y ha tenido varias transformaciones, sabores e interpretaciones a lo largo de la historia. Este movimiento cuestiona la situación de las mujeres en la sociedad, como han sido pensadas y como su sexo ha sido conceptualizado. El artículo <a href="http://www.mujeresenred.net/spip.php?article1397">Feminismo: historia y corrientes</a> describe las transformaciones por las que el movimiento ha pasado desde sus inicios hasta ahora.
             </p>
-
-            <h3>Why do we use it?</h3>
             <p>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                A pesar de que las mujeres fueron parte de los grandes acontecimientos históricos, esta presencia fue más subordinada hacia objetivos más globales, relegándolas al ámbito privado de la familia y el hogar, dejando el espacio público exclusivamente para los hombres. Es a partir de la Revolución Francesa, ligada a la ideología de la racionalidad e igualdad, junto con la lucha por nuevas -y mejores- condiciones de trabajo generadas por la Revolución Industrial, que las mujeres empiezan a realizar una búsqueda más puntual de reivindicación de sus derechos, en el plano civil, político, educativo y laboral.
             </p>
-
-            <h3>Where does it come from?</h3>
             <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            <em>[ ...En el s. XIX, Flora Tristán vincula las reivindicaciones de la mujer con las luchas obreras. Publica en 1842 La Unión Obrera, donde presenta el primer proyecto de una Internacional de trabajadores, y expresa “la mujer es la proletaria del proletariado [...] hasta el más oprimido de los hombres quiere oprimir a otro ser: su mujer”. ]</em>
             </p>
-
-            <p>
-                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+            <p>Es importante notar que éste no es un movimiento homogéneo, sino que se ha nutrido (y se nutre) de diferentes ideologías transversales en la sociedad, pero en resumen es un movimiento integral político que refleja la lucha de las mujeres contra cualquier tipo de discriminación.  
+Una de las discusiones alrededor del movimiento es:  si el feminismo busca la igualdad, <a href="http://porquetulodigas.tumblr.com/post/97974251633/si-el-feminismo-busca-la-igualdad-por-qu%C3%A9-se">¿por qué se llama feminismo y no igualitarismo?</a>
             </p>
-
-            <h3>Where can I get some?</h3>
+            <h3>Actualidad</h3>
             <p>
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+             En la actualidad se apunta mucho a los logros obtenidos por las mujeres y la mayor representatividad que existe de las mismas. Las mujeres <b>pueden en efecto estudiar</b>, <a href="http://www.unwomen.org/es/what-we-do/ending-violence-against-women/facts-and-figures#note">[En el entorno escolar, las pruebas señalan que las niñas están en situación de mayor riesgo de sufrir violencia sexual, acoso y explotación..]</a>, <b>tienen derechos civiles</b>,  
+             <a href="http://www.ohchr.org/EN/Issues/Women/WRGS/Pages/WRGSIndex.aspx">[Aún millones de mujeres experimentan discriminación en la aplicación de sus derechos]</a>, <b>pueden acceder a cargos políticos y de liderazgo </b>
+             <a href="http://www.unwomen.org/es/what-we-do/leadership-and-political-participation/facts-and-figures">[Alrededor del mundo, sólo un 22% de parlamentarios nacionales son mujeres] </a>, 
+             <b>tienen libertad sobre sus cuerpos </b><a href="http://www.unwomen.org/es/what-we-do/ending-violence-against-women/facts-and-figures#note">[..Se estima que 200 millones de niñas y mujeres han sufrido algún tipo de mutilación/ablación genital femenina en 30 países..].</a> 
+             </p>
+             <p>
+             Sin embargo, a pesar de esta percibida igualdad, aún existe discriminación y estamos lejos de reflejar una presencia igualitaria en diferentes instancias de la sociedad, más aún, la valoración de las mujeres por su físico y no por su capacidad, sigue siendo el común incluso en las sociedades occidentales <a href="http://www.imdb.com/title/tt1784538/?ref_=tt_rec_tt">[ver Miss Representation]</a> y, aunado a esto el problema latente de la violencia contra mujeres y niñas, en sus diferentes formas.
             </p>
         </section>
         <ArticleRate/>
